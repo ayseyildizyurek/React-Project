@@ -1,0 +1,76 @@
+.filter-box-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border: 2px solid #f0465e;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 30px 5px;
+  width: 300px;
+}
+
+.filter-category,
+.filter-brand,
+.filter-price {
+  margin-bottom: 15px;
+}
+
+.filter-category,
+.filter-brand,
+.filter-price {
+  border-bottom: 1px solid #eb7a7d;
+  padding-bottom: 10px;
+}
+
+.filter-category h2,
+.filter-brand h2,
+.filter-price h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.filter-category label,
+.filter-brand label,
+.filter-price label {
+  font-size: 14px;
+  color: #555;
+}
+
+.filter-button button {
+  padding: 10px 20px;
+  background-color: #d24d49;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter-button button:hover {
+  background-color: #eb6741;
+}
+
+.filter-price div {
+  margin-bottom: 10px;
+}
+
+.filter-price div label {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #555;
+  display: inline-block;
+  width: 40px;
+}
+
+.filter-price div input[type="number"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 120px;
+}

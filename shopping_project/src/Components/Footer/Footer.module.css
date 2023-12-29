@@ -1,0 +1,40 @@
+.footer {
+  background-color: #de6a4e;
+  color: white;
+  padding: 20px 20px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
+  display: block;
+  font-size: 18px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.contactInfo {
+  max-width: 300px;
+  font-size: 16px;
+}
+
+.copyRight {
+  text-align: center;
+  margin-top: 20px;
+}

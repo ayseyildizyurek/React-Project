@@ -1,0 +1,45 @@
+.overlay {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  width: 0;
+  height: 100%;
+  overflow-x: hidden;
+  transition: width 1s ease-in-out 0.3s;
+  z-index: 1000;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  max-height: 100%;
+  background: #e6a491;
+  padding: 10px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  /* transition: transform 1s ease-in-out 0.3s; */
+  transition: width 0.3s ease-in-out;
+  z-index: 1001;
+  overflow-y: auto;
+  transform: translateX(100%);
+  text-align: center;
+}
+.modal h2 {
+  margin: 20px 10px;
+}
+
+.overlay.active {
+  width: 300px;
+}
+
+.overlay.active .modal {
+  transform: translateX(0);
+}
+
+.basket-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}

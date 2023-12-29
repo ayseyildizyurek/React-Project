@@ -1,0 +1,93 @@
+.shopping-card-main-div {
+  display: flex;
+  flex-direction: column;
+}
+.shopping-card-item {
+  display: flex;
+  border: 1px solid #f0465e;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.shopping-card-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.shopping-card-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.quantity {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.quantity-container button {
+  font-size: 16px;
+  padding: 8px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.total-price {
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  padding-top: 8px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.shopping-card-item-total {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 10px 10px;
+  border: 2px solid #f0465e;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-card-item-total p {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.shopping-card-item-total label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.shopping-card-item-total-button {
+  margin-top: 10px;
+  padding: 2px 2px;
+  border: 1px solid #f0465e;
+  border-radius: 8px;
+  background-color: #e6a147;
+  cursor: pointer;
+  font-size: 16px;
+}

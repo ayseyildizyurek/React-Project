@@ -1,0 +1,22 @@
+.about {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  height: 72vh;
+}
+
+.aboutContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.aboutContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #eb592d;
+}
+
+.aboutContent p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
